@@ -1,8 +1,21 @@
-#include <unistd.h>
-void ft_putchar(char ch);
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vrmikaye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/01/13 19:05:17 by vrmikaye          #+#    #+#             */
+/*   Updated: 2024/01/13 19:05:53 by vrmikaye         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void ft_putstr(char *str)
+#include <unistd.h>
+
+void	ft_putchar(char ch);
+
+void	ft_putstr(char *str)
 {
-    while(*str != '\0')
-        ft_putchar(*str++);
+	while (*str != '\0')
+		ft_putchar(*str++);
 }

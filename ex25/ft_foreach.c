@@ -1,8 +1,20 @@
-void ft_foreach(int *tab, int length, void (*f)(int))
-{
-    int i;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_foreach.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vrmikaye <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/01/13 19:18:14 by vrmikaye          #+#    #+#             */
+/*   Updated: 2024/01/13 19:18:52 by vrmikaye         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    i = 0;
-    wihle(i < length)
-        f(tab[i++]);
+void	ft_foreach(int *tab, int length, void (*f)(int))
+{
+	int	i;
+
+	i = 0;
+	while (i < length)
+		f(tab[i++]);
 }
